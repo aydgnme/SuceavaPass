@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39C9AEE2AF7E43900005C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9AED2AF7E43900005C16 /* AppDelegate.m */; };
+		F39C9AF12AF7E43900005C16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9AF02AF7E43900005C16 /* SceneDelegate.m */; };
+		F39C9AF42AF7E43900005C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9AF32AF7E43900005C16 /* ViewController.m */; };
+		F39C9AF72AF7E43900005C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C9AF52AF7E43900005C16 /* Main.storyboard */; };
+		F39C9AF92AF7E43A00005C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C9AF82AF7E43A00005C16 /* Assets.xcassets */; };
+		F39C9AFC2AF7E43A00005C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C9AFA2AF7E43A00005C16 /* LaunchScreen.storyboard */; };
+		F39C9AFF2AF7E43A00005C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9AFE2AF7E43A00005C16 /* main.m */; };
+		F39C9B092AF7E43A00005C16 /* SuceavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9B082AF7E43A00005C16 /* SuceavaTests.m */; };
+		F39C9B132AF7E43A00005C16 /* SuceavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9B122AF7E43A00005C16 /* SuceavaUITests.m */; };
+		F39C9B152AF7E43A00005C16 /* SuceavaUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9B142AF7E43A00005C16 /* SuceavaUITestsLaunchTests.m */; };
+		F39C9B392AF8063D00005C16 /* generatorQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9B382AF8063D00005C16 /* generatorQRViewController.m */; };
+		F39C9B3C2AF8660000005C16 /* QRChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C9B3B2AF8660000005C16 /* QRChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39C9B052AF7E43A00005C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C9AE12AF7E43800005C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39C9AE82AF7E43800005C16;
+			remoteInfo = Suceava;
+		};
+		F39C9B0F2AF7E43A00005C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C9AE12AF7E43800005C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39C9AE82AF7E43800005C16;
+			remoteInfo = Suceava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39C9AE92AF7E43900005C16 /* Suceava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suceava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9AEC2AF7E43900005C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F39C9AED2AF7E43900005C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F39C9AEF2AF7E43900005C16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F39C9AF02AF7E43900005C16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F39C9AF22AF7E43900005C16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F39C9AF32AF7E43900005C16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F39C9AF62AF7E43900005C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39C9AF82AF7E43A00005C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39C9AFB2AF7E43A00005C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39C9AFD2AF7E43A00005C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39C9AFE2AF7E43A00005C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39C9B042AF7E43A00005C16 /* SuceavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuceavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9B082AF7E43A00005C16 /* SuceavaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuceavaTests.m; sourceTree = "<group>"; };
+		F39C9B0E2AF7E43A00005C16 /* SuceavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuceavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9B122AF7E43A00005C16 /* SuceavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuceavaUITests.m; sourceTree = "<group>"; };
+		F39C9B142AF7E43A00005C16 /* SuceavaUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuceavaUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F39C9B372AF8063D00005C16 /* generatorQRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generatorQRViewController.h; sourceTree = "<group>"; };
+		F39C9B382AF8063D00005C16 /* generatorQRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = generatorQRViewController.m; sourceTree = "<group>"; };
+		F39C9B3A2AF8660000005C16 /* QRChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRChecker.h; sourceTree = "<group>"; };
+		F39C9B3B2AF8660000005C16 /* QRChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39C9AE62AF7E43800005C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B012AF7E43A00005C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B0B2AF7E43A00005C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39C9AE02AF7E43800005C16 = {
+			isa = PBXGroup;
+			children = (
+				F39C9AEB2AF7E43900005C16 /* Suceava */,
+				F39C9B072AF7E43A00005C16 /* SuceavaTests */,
+				F39C9B112AF7E43A00005C16 /* SuceavaUITests */,
+				F39C9AEA2AF7E43900005C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39C9AEA2AF7E43900005C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9AE92AF7E43900005C16 /* Suceava.app */,
+				F39C9B042AF7E43A00005C16 /* SuceavaTests.xctest */,
+				F39C9B0E2AF7E43A00005C16 /* SuceavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39C9AEB2AF7E43900005C16 /* Suceava */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9AEC2AF7E43900005C16 /* AppDelegate.h */,
+				F39C9AED2AF7E43900005C16 /* AppDelegate.m */,
+				F39C9AEF2AF7E43900005C16 /* SceneDelegate.h */,
+				F39C9AF02AF7E43900005C16 /* SceneDelegate.m */,
+				F39C9AF22AF7E43900005C16 /* ViewController.h */,
+				F39C9AF32AF7E43900005C16 /* ViewController.m */,
+				F39C9B372AF8063D00005C16 /* generatorQRViewController.h */,
+				F39C9B382AF8063D00005C16 /* generatorQRViewController.m */,
+				F39C9B3A2AF8660000005C16 /* QRChecker.h */,
+				F39C9B3B2AF8660000005C16 /* QRChecker.m */,
+				F39C9AF52AF7E43900005C16 /* Main.storyboard */,
+				F39C9AF82AF7E43A00005C16 /* Assets.xcassets */,
+				F39C9AFA2AF7E43A00005C16 /* LaunchScreen.storyboard */,
+				F39C9AFD2AF7E43A00005C16 /* Info.plist */,
+				F39C9AFE2AF7E43A00005C16 /* main.m */,
+			);
+			path = Suceava;
+			sourceTree = "<group>";
+		};
+		F39C9B072AF7E43A00005C16 /* SuceavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9B082AF7E43A00005C16 /* SuceavaTests.m */,
+			);
+			path = SuceavaTests;
+			sourceTree = "<group>";
+		};
+		F39C9B112AF7E43A00005C16 /* SuceavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9B122AF7E43A00005C16 /* SuceavaUITests.m */,
+				F39C9B142AF7E43A00005C16 /* SuceavaUITestsLaunchTests.m */,
+			);
+			path = SuceavaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39C9AE82AF7E43800005C16 /* Suceava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9B182AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "Suceava" */;
+			buildPhases = (
+				F39C9AE52AF7E43800005C16 /* Sources */,
+				F39C9AE62AF7E43800005C16 /* Frameworks */,
+				F39C9AE72AF7E43800005C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suceava;
+			productName = Suceava;
+			productReference = F39C9AE92AF7E43900005C16 /* Suceava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39C9B032AF7E43A00005C16 /* SuceavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9B1B2AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "SuceavaTests" */;
+			buildPhases = (
+				F39C9B002AF7E43A00005C16 /* Sources */,
+				F39C9B012AF7E43A00005C16 /* Frameworks */,
+				F39C9B022AF7E43A00005C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39C9B062AF7E43A00005C16 /* PBXTargetDependency */,
+			);
+			name = SuceavaTests;
+			productName = SuceavaTests;
+			productReference = F39C9B042AF7E43A00005C16 /* SuceavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F39C9B0D2AF7E43A00005C16 /* SuceavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9B1E2AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "SuceavaUITests" */;
+			buildPhases = (
+				F39C9B0A2AF7E43A00005C16 /* Sources */,
+				F39C9B0B2AF7E43A00005C16 /* Frameworks */,
+				F39C9B0C2AF7E43A00005C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39C9B102AF7E43A00005C16 /* PBXTargetDependency */,
+			);
+			name = SuceavaUITests;
+			productName = SuceavaUITests;
+			productReference = F39C9B0E2AF7E43A00005C16 /* SuceavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39C9AE12AF7E43800005C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F39C9AE82AF7E43800005C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F39C9B032AF7E43A00005C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F39C9AE82AF7E43800005C16;
+					};
+					F39C9B0D2AF7E43A00005C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F39C9AE82AF7E43800005C16;
+					};
+				};
+			};
+			buildConfigurationList = F39C9AE42AF7E43800005C16 /* Build configuration list for PBXProject "Suceava" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39C9AE02AF7E43800005C16;
+			productRefGroup = F39C9AEA2AF7E43900005C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39C9AE82AF7E43800005C16 /* Suceava */,
+				F39C9B032AF7E43A00005C16 /* SuceavaTests */,
+				F39C9B0D2AF7E43A00005C16 /* SuceavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39C9AE72AF7E43800005C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9AFC2AF7E43A00005C16 /* LaunchScreen.storyboard in Resources */,
+				F39C9AF92AF7E43A00005C16 /* Assets.xcassets in Resources */,
+				F39C9AF72AF7E43900005C16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B022AF7E43A00005C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B0C2AF7E43A00005C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39C9AE52AF7E43800005C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9AF42AF7E43900005C16 /* ViewController.m in Sources */,
+				F39C9AEE2AF7E43900005C16 /* AppDelegate.m in Sources */,
+				F39C9B3C2AF8660000005C16 /* QRChecker.m in Sources */,
+				F39C9AFF2AF7E43A00005C16 /* main.m in Sources */,
+				F39C9AF12AF7E43900005C16 /* SceneDelegate.m in Sources */,
+				F39C9B392AF8063D00005C16 /* generatorQRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B002AF7E43A00005C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9B092AF7E43A00005C16 /* SuceavaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9B0A2AF7E43A00005C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9B132AF7E43A00005C16 /* SuceavaUITests.m in Sources */,
+				F39C9B152AF7E43A00005C16 /* SuceavaUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39C9B062AF7E43A00005C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39C9AE82AF7E43800005C16 /* Suceava */;
+			targetProxy = F39C9B052AF7E43A00005C16 /* PBXContainerItemProxy */;
+		};
+		F39C9B102AF7E43A00005C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39C9AE82AF7E43800005C16 /* Suceava */;
+			targetProxy = F39C9B0F2AF7E43A00005C16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39C9AF52AF7E43900005C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39C9AF62AF7E43900005C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39C9AFA2AF7E43A00005C16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39C9AFB2AF7E43A00005C16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39C9B162AF7E43A00005C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39C9B172AF7E43A00005C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39C9B192AF7E43A00005C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YP6GH5LF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Suceava/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.Suceava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39C9B1A2AF7E43A00005C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YP6GH5LF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Suceava/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.Suceava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F39C9B1C2AF7E43A00005C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.SuceavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suceava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Suceava";
+			};
+			name = Debug;
+		};
+		F39C9B1D2AF7E43A00005C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.SuceavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suceava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Suceava";
+			};
+			name = Release;
+		};
+		F39C9B1F2AF7E43A00005C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.SuceavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Suceava;
+			};
+			name = Debug;
+		};
+		F39C9B202AF7E43A00005C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydgn.me.SuceavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Suceava;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39C9AE42AF7E43800005C16 /* Build configuration list for PBXProject "Suceava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9B162AF7E43A00005C16 /* Debug */,
+				F39C9B172AF7E43A00005C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9B182AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "Suceava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9B192AF7E43A00005C16 /* Debug */,
+				F39C9B1A2AF7E43A00005C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9B1B2AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "SuceavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9B1C2AF7E43A00005C16 /* Debug */,
+				F39C9B1D2AF7E43A00005C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9B1E2AF7E43A00005C16 /* Build configuration list for PBXNativeTarget "SuceavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9B1F2AF7E43A00005C16 /* Debug */,
+				F39C9B202AF7E43A00005C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39C9AE12AF7E43800005C16 /* Project object */;
+}
